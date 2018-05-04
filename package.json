@@ -1,0 +1,23 @@
+{
+  "name": "Elite-Drangerous-kill-counter",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/rojr/EliteKills",
+  "keywords": [
+    "Elite Dangerous",
+    "Dangerous"
+  ],
+  "author": "rojr",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  },
+  "dependencies": {
+    "dialog": "^0.3.1",
+    "remote": "^0.2.6"
+  }
+}

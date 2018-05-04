@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Code World</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face {
+    font-family: Orbitron;
+    src: url(res/fonts/Orbitron-Regular.ttf);
+    font-weight: normal;
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  background-color: black;
+  color:white;
+}
+
+#playerList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#playerList p {
+  color: #f7b800;
+  font-size: 42px;
+text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-animation: NAME-YOUR-ANIMATION 0.4s; /* Safari 4+ */
+  -moz-animation:    NAME-YOUR-ANIMATION 0.4s; /* Fx 5+ */
+  -o-animation:      NAME-YOUR-ANIMATION 0.4s; /* Opera 12+ */
+  animation:         NAME-YOUR-ANIMATION 0.4s; /* IE 10+, Fx 29+ */
+}
+
+</style>
+    </head>
+    <body>
+        <div id="playerList">
+        </div>
+        <script>
+            require('./renderer.js');
+        </script>
+    </body>
+</html>
